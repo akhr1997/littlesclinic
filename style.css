@@ -1,496 +1,68 @@
 body {
     height: 100%;
-  }
+}
   
-  #hero {
-    /* background-image: url("../Images/demo4.jpg"); */
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* position: relative; */
-  }
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: black; */
+  padding: 0px 0px 0px 0px !important;
+  background-color: #D61B69;
+}
   
-  .navbar {
-    font-family: "Montserrat", sans-serif;
-    /* background-color: black; */
-    padding: 0px 0px 0px 0px !important;
-    background-color: #D61B69;
-  }
+.navbar-brand {
+  color: white !important;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 2rem !important;
+}
   
-  .navbar-brand {
-    color: white !important;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: bold;
-    padding-left: 10px;
-    font-size: 2rem !important;
-  }
+.nav-item {
+  padding-left: 20px;
+  font-family: "oswald", sans-serif;
+  font-size: 23px;
+  font-weight: 100;
+}
   
-  .nav-item {
-    padding-left: 20px;
-    font-family: "oswald", sans-serif;
-    font-size: 23px;
-    font-weight: 100;
-  }
-  
-  .navbar-nav {
-    padding-right: 50px;
-    font-weight: bold;
-    color: #2873B2 !important;
-  }
-  
-  .home-body {
-    height: 800px !important;
-    padding-left: 10px;
-    padding-top: 5%;
-    text-align: center;
-    color: black !important;
-  }
-  
-  .name {
-    /* font-family: "Sacramento", cursive; */
-    font-family: "oswald", sans-serif;
-    font-size: 100rem !important;
-    line-height: 1;
-    /* color: white; */
-    color: black;
-  }
-  
-  .hi {
-    font-family: "Quattrocento", sans-serif;
-    font-size: 5rem;
-    line-height: 1;
-    /* color: #fec576; */
-  }
-  
-  .SE-WD {
-    /* font-family: "Montserrat", sans-serif; */
-    font-family: "Quattrocento", sans-serif;
-    /* color: #fec576; */
-    line-height: 1;
-  }
-  
-  .SE-WD2 {
-    /* font-family: "Montserrat", sans-serif; */
-    font-family: "Quattrocento", sans-serif;
-    color: black;
-  }
-  
-  .email, .phone, .address{
-    font-family: "Quattrocento", sans-serif;
-    text-decoration: none;
-    font-size: 1.5rem !important;
-  }
+.navbar-nav {
+  padding-right: 50px;
+  font-weight: bold;
+  color: #2873B2 !important;
+}
 
-  .contact-btn {
-    margin-top: 10px;
-    margin-bottom: 40px;
-  }
+.home-body {
+  height: 800px !important;
+  padding-left: 10px;
+  padding-top: 5%;
+  text-align: center;
+  color: black !important;
+}
   
-  .hero-img {
-    margin-top: 100px;
-    width: 58%;
-    height: 50%;
-    border-radius: 5%;
-    /* padding-right: 0 !important; */
-    /* align-content: center;
-    align-items: center; */
-    /* margin-left: 100px; */
-    /* padding-top: 20px; */
-  }
+.littleClinicInlandinPage {
+  font-family: "Quattrocento", sans-serif;
+  text-align: center;
+  font-size: 5rem;
+  line-height: 2;
+}
   
-  .phone-image {
-    width: 100px !important;
-  }
+.landingPageMessage {
+  font-family: "Quattrocento", sans-serif;
+  font-family: "Quattrocento", sans-serif;
+  color: black;
+  line-height: 1;
+}
   
-  i {
-    width: 100px !important;
-  }
+.hero-img {
+  margin-top: 100px;
+  width: 58%;
+  height: 50%;
+  border-radius: 5%;
+}
   
-  .git-img,
-  .linkedin-img {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .gmail-img {
-    margin-right: 50px;
-    margin-left: 50px;
-    width: 35px;
-    height: 35px;
-  }
-  
-  .home-left {
-    align-items: center;
-  }
-  
-  .top-container {
-    /* ssbackground-color: #f2f2f2; */
-    margin: 50 0 100px 0;
-    padding-bottom: 50px;
-    background-color: #f6cbd2;
-    color: black;
-  }
-  
-  .nav-link {
-    color: white !important;
-  }
-  
-  .nav-link-resume {
-    display: inline;
-    width: 90px;
-    border-style: solid;
-    border-width: 1.5px;
-    border-color: black;
-  }
-  
-  .navbar-toggler {
-    color: white !important;
-  }
-  
-  #about {
-    background-color: white;
-    align-content: center;
-    padding: 3% 15%;
-    /* text-align: center; */
-    text-justify: auto;
-  }
-  
-  .about-img {
-    width: 90%;
-    height: 100%;
-    /* border-radius: 100%; */
-  }
-  
-  .about-col-one {
-    align-content: center;
-    display: inline;
-    display: block;
-  }
-  
-  .lorum {
-    display: block;
-    padding-top: 30px;
-    text-align: justify;
-    font-family: "Montserrat", sans-serif;
-    font-size: 120%;
-  }
-  
-  .word-desc {
-    text-align: justify;
-    /* padding-bottom: 10%; */
-    margin-bottom: 0%;
-    border-bottom: 0;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .word-desc {
-      font-size: 15px;
-      /* text-align: justify; */
-      line-height: 120%;
-    }
-  }
-  
-  .exp-heading {
-    text-align: center;
-    /* font-family: "Montserrat", sans-serif; */
-    /* font-weight: 500px; */
-    /* color: white; */
-    font-family: "oswald", sans-serif;
-    color: #fec576;
-    font-size: 4rem;
-  }
-  
-  .aboutme-heading {
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500px;
-    color: black;
-  }
-  
-  #work-experience {
-    background-color: #1c2d50;
-    height: 100%;
-    width: 100%;
-    /* font-family: "Montserrat", sans-serif; */
-    font-family: "Quattrocento", sans-serif;
-  }
-  
-  /* .work-exp {
-    background-color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    opacity: 30%;
-    height: 500px;
-    width: 100%;
-  } */
-  
-  #skills {
-    background-color: #15223c;
-    height: 100%;
-    width: 100%;
-    padding-top: 50px;
-    /* padding-left: 70px; */
-    padding-bottom: 50px;
-  }
-  
-  #projects {
-    background-color: white;
-    height: 500px;
-    width: 100%;
-  }
-  
-  .card {
-    margin: 10%;
-  }
-  
-  .card-header-change {
-    font-weight: bold;
-  }
-  
-  .card-title-change {
-    font-weight: bold;
-  }
-  
-  .skill-images {
-    width: 60%;
-    height: 60%;
-  }
-  
-  .typing {
-    color: white;
-    font-weight: bold;
-  }
-  
-  .btn-hover:hover {
-    background-color: #fec576 !important;
-    /* color: white !important; */
-  }
-  
-  .nav-link:hover {
-    color: black !important;
-  }
-  
-  .btn-hover:active {
-    transform: translateY(2px);
-  }
-  
-  .profile-icon2 {
-    color: white;
-    font-size: 30px;
-    /* margin-left: 30px; */
-    align-items: center;
-    position: relative;
-  }
-  
-  .profile-icon1 {
-    color: white;
-    font-size: 30px;
-    margin-right: 30px;
-  }
-  
-  .social-icon1,
-  .social-icon2 {
-    font-size: 30px;
-    color: black;
-  }
-  
-  /* .social-icons {
-    border: black solid 2px;
-    border-left: solid 10px;
-    display: inline;
-  } */
-  
-  /* .social-icon1 {
-    font-size: 30px;
-    margin-left: 310px;
-  }*/
-  
-  .social-icon2 {
-    margin-left: 90px;
-  }
-  
-  .profile-icon3 {
-    color: white;
-    font-size: 30px;
-    margin-left: 30px;
-  }
-  
-  .profile-icon1 :hover,
-  .profile-icon2 :hover,
-  .profile-icon3 :hover {
-    /* color: rgb(197, 153, 218); */
-    color: #fec576 !important;
-  }
-  
-  .profile-icon2 :active,
-  .profile-icon1 :active,
-  .profile-icon3 :active {
-    transform: translateY(10px);
-  }
-  
-  .skill-accordion {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: black;
-    background-color: white;
-    border-radius: 25px;
-  }
-  
-  .demo {
-    /* display: inline; */
-    padding-left: 50px;
-    align-content: center;
-    width: 150px;
-    border-spacing: 10px;
-    border-style: solid;
-    border-width: 1.5px;
-    border-color: black;
-    background-color: yellow;
-    border-radius: 10%;
-  }
-  
-  .aboutme-section {
-    background-color: #15223c !important;
-    /* height: 100vh; */
-  }
-  
-  .aboutme-heading {
-    text-align: center;
-    font-family: "oswald", sans-serif;
-    color: #fec576;
-    padding-top: 80px;
-    font-size: 4rem;
-    line-height: 1;
-  }
-  
-  .aboutme-heading2 {
-    text-align: center;
-    font-family: "Quattrocento", sans-serif;
-    color: white;
-    font-size: 2.8rem;
-    line-height: 1;
-    border-bottom: 50px;
-    margin: 0px !important;
-    text-decoration: underline 2px;
-  }
-  
-  .aboutme-desc {
-    text-align: center;
-    font-family: "Quattrocento", sans-serif;
-    color: white;
-    font-size: 20px;
-    line-height: 1.5;
-    padding-bottom: 40px;
-    text-align: justify;
-    /* text-align: center;
-    font-family: "Quattrocento", sans-serif;
-    color: white;
-    font-size: 23px;
-    line-height: 1;
-    padding-bottom: 40px;
-    margin: auto; */
-    /* width: 50%; */
-    /* border: 3px solid green; */
-    /* padding: 10px; */
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .aboutme-desc {
-      font-size: 17px;
-      text-align: justify;
-      line-height: 120%;
-    }
-  }
-  
-  .skill-icon {
-    color: black;
-    font-size: 50px;
-    padding-right: 15px;
-  }
-  
-  .backend {
-    padding-left: 20px;
-  }
-  
-  .yellow {
-    /* text-decoration: none; */
-    color: #fec576 !important;
-  }
-  
-  .acc-heading {
-    font-family: "oswald", sans-serif;
-    font-size: 30px !important;
-  }
-  
-  .allskills {
-    font-family: "Quattrocento", sans-serif;
-    font-size: 30px !important;
-  }
-  
-  /* @media only screen and (max-width: 600px) {
-    .allskills {
-      font-size: 15px !important;
-    }
-  } */
-  
-  .top-div {
-    padding-bottom: 20px;
-  }
-  
-  .call {
-    /* background-color: #fec576; */
-    color: black;
-    font-family: "oswald", sans-serif;
-    font-weight: bold;
-  }
-  
-  .footer {
-    background-color: #1c2d50;
-    height: 60px;
-  }
-  
-  .copyright {
-    padding-top: 20px;
-    text-align: center;
-    color: aliceblue;
-    font-family: "oswald", sans-serif;
-    font-size: large;
-  }
-  
-  ol {
-    list-style-type: square;
-  }
-  
-  .card1 {
-    /* padding: 0%; */
-    margin-bottom: 0px;
-    /* border: 0ch; */
-  }
-  
-  .card2,
-  .card1 {
-    font-size: 20px;
-    margin-top: 50px;
-  }
-  
-  .card-header {
-    font-size: 22px;
-  }
-  
-  .time1 {
-    /* padding-left: 312px; */
-    padding-left: 470px;
-  }
-  
-  .time2 {
-    padding-left: 570px;
-  }
-  
-  .accenture {
-    height: 80px;
-    width: 150px;
-  }
+.top-container {
+  margin: 50 0 100px 0;
+  padding-bottom: 50px;
+  background-color: #f6cbd2;
+  color: black;
+}
   
