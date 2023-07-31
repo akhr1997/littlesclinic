@@ -1,18 +1,19 @@
-body {
-    height: 100%;
+body, html {
+  height: 100%;
+  margin: 0;
 }
   
 .navbar {
-  font-family: "Montserrat", sans-serif;
-  /* background-color: black; */
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
   padding: 0px 0px 0px 0px !important;
-  background-color: #D61B69;
 }
   
 .navbar-brand {
-  color: white !important;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  /* font-weight: bold; */
   padding-left: 10px;
   font-size: 2rem !important;
 }
@@ -23,11 +24,28 @@ body {
   font-size: 23px;
   font-weight: 100;
 }
+
+.nav-link{
+  color: rgb(0, 0, 0) !important;
+}
   
 .navbar-nav {
   padding-right: 50px;
   font-weight: bold;
   color: #2873B2 !important;
+}
+
+.landingPage {
+  /* The image used */
+  background-image: url("hero-pic.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home-body {
@@ -65,4 +83,40 @@ body {
   background-color: #f6cbd2;
   color: black;
 }
-  
+
+.glass{
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.landingPageText {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 390px) {
+
+  .landingPageText {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+#about{
+  height: 100%;
+  width: 100%;
+  margin: 50 0 100px 0;
+  padding-bottom: 50px;
+}
