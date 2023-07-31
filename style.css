@@ -70,13 +70,6 @@ body, html {
   line-height: 1;
 }
   
-.hero-img {
-  margin-top: 100px;
-  width: 58%;
-  height: 50%;
-  border-radius: 5%;
-}
-  
 .top-container {
   margin: 50 0 100px 0;
   padding-bottom: 50px;
@@ -112,11 +105,55 @@ body, html {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  .doc-pic-div{
+    padding-left: 100px;
+  }
 }
 
 #about{
-  height: 100%;
+  background-color: #EEEFF1;
+}
+
+.about-row{
+  padding-bottom: 100px;
+}
+
+.about-description, .address, .address-google-map, .doc-pic-div {
+  font-family: 'Lexend Deca', sans-serif;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.about-name{
+  font-family: 'Lexend Deca', sans-serif;
+  padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.doc-pic {
+  border: 2px solid;
+  left: 100px;
+  position: relative;
+  height: 480px;
+  width: 400px;
+  border-radius: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.doc-pic-div{
+  padding-right: 200px !important;
+}
+
+#address{
   width: 100%;
-  margin: 50 0 100px 0;
-  padding-bottom: 50px;
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+.address, .address-google-map{
+  padding-top: 150px !important;
 }
